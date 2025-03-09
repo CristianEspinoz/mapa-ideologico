@@ -14,23 +14,20 @@
             let ideologos = {
                 "Fukuyama": {x: 200, y: 200, bloque: "Occidental-Liberal"},
                 "Harari": {x: 250, y: 250, bloque: "Occidental-Liberal"},
-                "Hazony": {x: 220, y: 230, bloque: "Occidental-Liberal"},
                 "Dugin": {x: 600, y: 200, bloque: "Euroasiático-Multipolar"},
                 "Wang Huning": {x: 550, y: 250, bloque: "Euroasiático-Multipolar"},
-                "Davutoğlu": {x: 200, y: 600, bloque: "Islámico Autárquico"},
-                "Panahian": {x: 250, y: 550, bloque: "Islámico Autárquico"},
-                "Bostrom": {x: 600, y: 600, bloque: "Tecno-Futurista"},
-                "Peter Thiel": {x: 550, y: 550, bloque: "Tecno-Futurista"},
-                "Balaji Srinivasan": {x: 500, y: 600, bloque: "Tecno-Futurista"}
+                "Davutoğlu": {x: 600, y: 600, bloque: "Islámico Autárquico"},
+                "Panahian": {x: 550, y: 550, bloque: "Islámico Autárquico"},
+                "Bostrom": {x: 200, y: 600, bloque: "Tecno-Futurista"},
+                "Peter Thiel": {x: 250, y: 550, bloque: "Tecno-Futurista"},
+                "Balaji Srinivasan": {x: 300, y: 600, bloque: "Tecno-Futurista"}
             };
             
             let conexiones = [
                 ["Dugin", "Wang Huning"],
                 ["Bostrom", "Wang Huning"],
                 ["Dugin", "Davutoğlu"],
-                ["Harari", "Bostrom"],
-                ["Hazony", "Fukuyama"],
-                ["Hazony", "Dugin"]
+                ["Harari", "Bostrom"]
             ];
             
             // Dibujar conexiones
@@ -53,8 +50,8 @@
             fill(100);
             text("Occidental-Liberal", 200, 100);
             text("Euroasiático-Multipolar", 600, 100);
-            text("Islámico Autárquico", 200, 700);
-            text("Tecno-Futurista", 600, 700);
+            text("Tecno-Futurista", 200, 700);
+            text("Islámico Autárquico", 600, 700);
         }
     </script>
 </head>
@@ -62,3 +59,4 @@
     <h2>Mapa de Ideólogos Geopolíticos</h2>
 </body>
 </html>
+
