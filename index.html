@@ -18,7 +18,7 @@
                 "Anne-Marie Slaughter": {x: 200, y: 150, bloque: "Occidental-Liberal"},
 
                 // Euroasiático-Multipolar
-                "Aleksandr Dugin": {x: 650, y: 100, bloque: "Euroasiático-Multipolar"},
+                "Dugin": {x: 650, y: 100, bloque: "Euroasiático-Multipolar"},
                 "Sergei Karaganov": {x: 550, y: 100, bloque: "Euroasiático-Multipolar"},
                 "Timofei Bordachev": {x: 600, y: 150, bloque: "Euroasiático-Multipolar"},
 
@@ -46,7 +46,7 @@
                 ["Joseph Nye", "Anne-Marie Slaughter"],
 
                 // Conexiones Euroasiático-Multipolar
-                ["Aleksandr Dugin", "Sergei Karaganov"],
+                ["Dugin", "Sergei Karaganov"],
                 ["Sergei Karaganov", "Timofei Bordachev"],
 
                 // Conexiones Pensamiento Chino
@@ -63,7 +63,7 @@
                 ["Samir Amin", "Vandana Shiva"],
 
                 // Conexiones entre bloques
-                ["Aleksandr Dugin", "Wang Huning"], // Multipolaridad y pensamiento chino
+                ["Dugin", "Wang Huning"], // Multipolaridad y pensamiento chino
                 ["Samir Amin", "Wang Huning"], // Sur Global y China (alianzas estratégicas)
                 ["Davutoğlu", "Samir Amin"], // Islámico y Sur Global (tradiciones y nacionalismos)
                 ["Sayyid Qutb", "Yan Xuetong"] // Islámico y Chino (respeto a las tradiciones)
@@ -78,7 +78,7 @@
             // Dibujar conexión punteada entre Dugin y Thiel (oposición)
             stroke(0);
             drawingContext.setLineDash([5, 5]); // Línea punteada
-            line(ideologos["Aleksandr Dugin"].x, ideologos["Aleksandr Dugin"].y, ideologos["Peter Thiel"].x, ideologos["Peter Thiel"].y);
+            line(ideologos["Dugin"].x, ideologos["Dugin"].y, ideologos["Peter Thiel"].x, ideologos["Peter Thiel"].y);
             drawingContext.setLineDash([]); // Restablecer a línea normal
 
             // Dibujar conexiones de tercer orden (sutiles)
